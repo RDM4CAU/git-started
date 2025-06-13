@@ -144,6 +144,8 @@ Central Research Data Management of Kiel University
 >
 > - [fdm@rz.uni-kiel.de](mailto:fdm@rz.uni-kiel.de)
 
+<div style="page-break-after: always;"></div>
+
 ## Introduction
 
 **Agenda:**
@@ -165,6 +167,8 @@ During the next two hours we will look at the following:
 - [Open questions](#questions-or-comments)
 - [Feedback](#feedback)
 
+<div style="page-break-after: always;"></div>
+
 ### Workshop rules
 
 ![Workshop rules](./assets/images/BeNice.jpg) <!-- width="250px" align="right" -->
@@ -176,6 +180,8 @@ During the next two hours we will look at the following:
 - Please do not do anything on the side.
 - Please contribute actively.
 - Please allow mistakes -> positive culture of mistakes.
+
+<div style="page-break-after: always;"></div>
 
 ### Goals today
 
@@ -191,6 +197,8 @@ At the end of this workshop you should
 - be able to **add members to a GitLab project** (within [GitLab RZ CAU](https://cau-git.rz.uni-kiel.de)),
 - hopefully also **had some fun**!
 
+<div style="page-break-after: always;"></div>
+
 ### Limitations today
 
 ![Goals today](./assets/images/limitations.png) <!-- width="250px" align="right" -->
@@ -202,6 +210,8 @@ Unfortunately, due to time constraints, we won't be able to fully explore or onl
 - Using GUI clients for Git.
 - Exploring advanced Git functionalities.
 - Addressing subject-specific issues related to Git and GitLab.
+
+<div style="page-break-after: always;"></div>
 
 ### Warm up
 
@@ -304,6 +314,8 @@ I already have a Git client installed on my computer.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ## Git
 
 **What is Version Management?**
@@ -324,6 +336,8 @@ I already have a Git client installed on my computer.
   - How to deal with related files distributed in complex file hierarchies?
   - Manifold of creative approaches to file naming and version numbers
   - E-mail server as storage system
+
+<div style="page-break-after: always;"></div>
 
 ### Version Control Systems
 
@@ -360,6 +374,8 @@ note top of [Repository 1]: Peer-to-Peer
 @enduml
 ```
 
+<div style="page-break-after: always;"></div>
+
 ### What is Git
 
 ![Linus Torvalds](/assets/images/Linus_Torvalds_Wikimedia.jpeg) <!-- align=right -->
@@ -376,9 +392,13 @@ note top of [Repository 1]: Peer-to-Peer
 
 [^1]: Picture of Linus Torvalds: Lf Asia, CC-BY 3.0 unported
 
+<div style="page-break-after: always;"></div>
+
 ### Why Git
 
 ![VCS Usage](assets/images/VCS_Usage_2015-2021.svg)
+
+<div style="page-break-after: always;"></div>
 
 ### Git is Flexible
 
@@ -430,6 +450,8 @@ note top of [Repository 1]: Peer-to-Peer
 > Multiple local repositories are synchronised with a central repository, serving as the authoritative source of truth.
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 ### Branches and Tags
 
@@ -486,6 +508,8 @@ gitGraph
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 {{2}}
 ********************************************************************************
 
@@ -526,6 +550,8 @@ gitGraph
 > **Git command:** [git tag](https://git-scm.com/docs/git-tag)
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 ### Git Usage
 
@@ -581,6 +607,8 @@ See 'git help git' for an overview of the system.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ### Command Overview
 
 ```text @plantUML
@@ -596,6 +624,8 @@ See 'git help git' for an overview of the system.
 ```
 
 For further information refer to the [Git Documentation](https://git-scm.com/docs/) or see the [Git Cheat Sheet](https://liascript.github.io/course/?https://cau-git.rz.uni-kiel.de/fdm/schulungen/git-einfuehrung/-/raw/main/course_materials/git_cheat_sheet.md).
+
+<div style="page-break-after: always;"></div>
 
 ### Git Hands-on
 
@@ -621,6 +651,8 @@ git config --global user.email "your.email@example.com"
 ```
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 #### Initializing a Git Repository
 
@@ -669,6 +701,8 @@ gitGraph
 !?[Initializing a Git Repository](assets/videos/git_init.webm)
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 #### Basic Git Commands
 
@@ -739,6 +773,8 @@ git status
 !?[Adding Files and Committing Changes](assets/videos/git_commit.webm)
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 #### Branching and Merging
 
@@ -841,6 +877,8 @@ gitGraph
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 #### Merge Conflicts
 
 Merge conflicts occur when conflicting changes exist between the source and target branches of a merge request, requiring resolution to determine which changes to accept.
@@ -885,6 +923,8 @@ graph LR
 - Finally, **Person B** pushes the resolved changes to the repository, creating `Version 3`, which incorporates modifications from both **Person A** and **Person B**.
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 ##### Handling Merge Conflicts
 
@@ -934,6 +974,8 @@ After resolving conflicts, stage the modified files using `git add <resolved-fil
 Once all conflicts are resolved and files are staged, complete the merge using `git commit`. Git will create a merge commit to finalise the merge.
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 #### Remote Repositories
 
@@ -993,6 +1035,8 @@ git pull origin main
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ## GitLab
 
 ![GitLab logo](./assets/images/gitlab-logo.png)<!-- width="250px" align="right" -->
@@ -1042,6 +1086,8 @@ Subgroups offer a hierarchical structure within groups, providing flexibility an
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ### GitLab RZ CAU
 
 > **The Computing Center of Kiel University centrally operates the Git service [GitLab RZ CAU](https://cau-git.rz.uni-kiel.de/) for CAU facilities.**
@@ -1081,6 +1127,8 @@ The Computing Center of Kiel University sets up project groups on request.
 - **Delegated Administration:** Project administrators are responsible for further managing rights within subordinate groups and projects, ensuring efficient delegation of administrative tasks.
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 ### GitLab Hands-on
 
@@ -1133,6 +1181,8 @@ If you were able to log in correctly, you will see your [dashboard](https://cau-
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 #### Join the Småland
 
 We have a playground subgroup called [Småland](https://cau-git.rz.uni-kiel.de/fdm/smaland) that we would like to invite you to join.
@@ -1179,6 +1229,8 @@ If you expand the [FDM](https://cau-git.rz.uni-kiel.de/fdm) and the [Småland](h
 *Note, you should have guest role in [Småland](https://cau-git.rz.uni-kiel.de/fdm/smaland) subgroup and owner role in your own subgroup.*
 
 ********************************************************************************
+
+<div style="page-break-after: always;"></div>
 
 #### Create a new project
 
@@ -1243,6 +1295,8 @@ You have successfully created a blank project.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 #### Create files and directories
 
 > **Once you have created a project you can start to create or to add files and directories to your project.**
@@ -1253,6 +1307,8 @@ You can add a file to your project by
 
 - [creating a new file](#create-a-new-file)
 - [uploading an existing file](#upload-an-existing-file)
+
+<div style="page-break-after: always;"></div>
 
 ##### Create a new file
 
@@ -1452,6 +1508,8 @@ and confirm *Go to my Awesome Project* in the Floating Prompt.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ##### Create a directory
 
 You want to organise your files in folders? You can also create directories via the Web IDE.
@@ -1537,6 +1595,8 @@ and confirm *Go to my Awesome Project* in the Floating Prompt.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 #### Handling Merge Conflicts
 
 > As you might recall from the hands-on Git command line section, merging branches in Git can sometimes lead to conflicts. These conflicts arise when Git cannot automatically reconcile differences between the branches, typically occurring when the same section of a file has been modified differently in the branches being merged.
@@ -1556,6 +1616,8 @@ If your merge conflict meets all of the following criteria, you can resolve the 
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ##### Types of conflict resolution
 
 > There are several different ways we might want to resolve a conflict:
@@ -1563,6 +1625,8 @@ If your merge conflict meets all of the following criteria, you can resolve the 
 > - Just pick one version, and use that.
 > - Keep the lines from both versions.
 > - Write your own resolution manually.
+
+<div style="page-break-after: always;"></div>
 
 ##### Example of a merge conflict
 
@@ -1790,9 +1854,13 @@ If everything worked, you will be informed that the merge was successful.
 
 ********************************************************************************
 
+<div style="page-break-after: always;"></div>
+
 ## Questions or comments
 
 Time for open questions and discussion!
+
+<div style="page-break-after: always;"></div>
 
 ## Feedback
 
@@ -1801,6 +1869,8 @@ We are happy about feedback.
 Please let us know if the workshop was helpful for you and how you liked it.
 
 ![feedback](./assets/images/feedback.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Further reading
 
